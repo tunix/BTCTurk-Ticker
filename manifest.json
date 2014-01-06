@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "BTCTurk Ticker",
+    "description": "Shows BTCTurk exchange prices & transactions dynamically",
+    "version": "1.0",
+    "icons": {},
+
+    "permissions": [
+        "https://www.btcturk.com/"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "19": "images/btcturk_logo_19.png",
+            "38": "images/btcturk_logo_38.png"
+        },
+        "default_popup": "ticker.html",
+        "default_title": "BTCTurk Ticker"
+    }
+}

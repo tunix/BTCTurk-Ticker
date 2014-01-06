@@ -1,0 +1,13 @@
+body {
+    min-width: 350px;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h3, strong {
+    color: #2a7e3f;
+}
+
+li {}
+
+.small {}

@@ -4,40 +4,42 @@
         <meta charset="UTF-8">
         <title>BTCTurk Ticker</title>
         <link rel="stylesheet" href="ticker.css">
-        <script src="ticker.js"></script>
+        <script src="contrib/accounting.min.js"></script>
+        <script src="popup.js"></script>
     </head>
     <body>
         <h3>BTCTurk Bitcoin Stock Exchange</h3>
 
         <ul>
             <li>
-                <strong>Bid:</strong>
-                <span class="bid">&#8378;1847.98</span>
+                <strong>Ask:</strong>
+                <span id="ask"></span>
             </li>
             <li>
-                <strong>Ask:</strong>
-                <span class="ask">&#8378;1847.99</span>
+                <strong>Bid:</strong>
+                <span id="bid"></span>
             </li>
             <li>
                 <strong>High:</strong>
-                <span class="high">&#8378;1871</span>
+                <span id="high"></span>
             </li>
             <li>
                 <strong>Low:</strong>
-                <span class="low">&#8378;1720</span>
+                <span id="low"></span>
             </li>
             <li>
                 <strong>Last:</strong>
-                <span class="last">&#8378;1847.99</span>
+                <span id="last"></span>
             </li>
             <li>
                 <strong>Volume:</strong>
-                <span class="volume">&#8378;163.81</span>
+                <span id="volume"></span>
             </li>
         </ul>
 
         <span class="small">
-            <strong>Last Update At:</strong> 1388970121
+            <strong>Last Update At:</strong>
+            <span id="timestamp"></span>
         </span>
     </body>
 </html>

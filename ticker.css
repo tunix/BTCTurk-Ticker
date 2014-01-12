@@ -8,6 +8,6 @@ h3, strong {
     color: #2a7e3f;
 }
 
-li {}
-
-.small {}
+.small {
+    font-size: 10px;
+}

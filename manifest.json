@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "BTCTurk Ticker",
     "description": "Shows BTCTurk exchange prices & transactions dynamically",
-    "version": "1.0",
+    "version": "1.1",
     "author": "Alper Kanat",
     "homepage_url": "https://github.com/tunix/BTCTurk-Ticker",
     "icons": {

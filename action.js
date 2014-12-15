@@ -1,5 +1,5 @@
 function updateBadge(rates) {
-    var rate = Math.floor(rates.Ask);
+    var rate = Math.floor(rates.ask);
 
     console.log("Updating badge with new price:", rate);
 

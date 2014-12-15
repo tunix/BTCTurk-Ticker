@@ -13,11 +13,11 @@ chrome.storage.local.get(function(rates) {
 
     var lastUpdated = new Date(rates.timestamp * 1000);
 
-    elAsk.innerHTML = formatPrice(rates.Ask);
-    elBid.innerHTML = formatPrice(rates.Bid);
-    elHigh.innerHTML = formatPrice(rates.High);
-    elLow.innerHTML = formatPrice(rates.Low);
-    elLast.innerHTML = formatPrice(rates.Last);
-    elVolume.innerHTML = rates.Volume + " BTC";
+    elAsk.innerHTML = formatPrice(rates.ask);
+    elBid.innerHTML = formatPrice(rates.bid);
+    elHigh.innerHTML = formatPrice(rates.high);
+    elLow.innerHTML = formatPrice(rates.low);
+    elLast.innerHTML = formatPrice(rates.last);
+    elVolume.innerHTML = rates.volume + " BTC";
     elTimestamp.innerText = lastUpdated.toLocaleString();
 });
